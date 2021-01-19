@@ -1,0 +1,46 @@
+/* main content */
+/* font-family: 'Noto Sans JP', sans-serif; */
+.input {
+    flex-direction: column;
+}
+
+.input h1, .input p, .input button {
+    text-align: center;
+}
+
+.input h1, .input p, .input input {
+    margin-bottom: 1rem;
+}
+
+.input input {
+    width: 250px;
+    height: 40px;
+    border-radius: 25px;
+    border-color: black;
+    text-align: center;
+}
+
+#btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: grey;
+}
+
+table {
+    position: relative;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+}
+
+table, tr, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.input, .output {
+    margin-top: 10rem;
+}
+
